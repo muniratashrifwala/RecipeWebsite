@@ -1,5 +1,27 @@
 .App {
   text-align: center;
+  min-height: 100vh;}
+
+.search-form{
+  min-height: 10vh;
+  display:flex; 
+  justify-content: center;
+  align-items:center;
+}
+
+.search-bar{
+  width:50%;
+  border-color:lightgrey;
+  margin-left:2rem;
+  margin-right: 2rem;
+  padding:10px;
+}
+
+.search-button{
+  background:  #80EDFF;
+  border : black; 
+  padding:10px 20px;
+  color:black;
 }
 
 .App-logo {
@@ -36,3 +58,5 @@
     transform: rotate(360deg);
   }
 }
+
+
